@@ -1,4 +1,4 @@
-FROM fluent/fluent-bit:2.0.0
+FROM fluent/fluent-bit:3.2.6
 ENV DEBIAN_FRONTEND noninteractive
 # RUN cmake -DFLB_CONFIG_YAML=Off ../
 WORKDIR /fb
