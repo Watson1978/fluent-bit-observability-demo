@@ -53,9 +53,8 @@ services:
     volumes:
       - ./collector/logs.yaml:/etc/otel-collector-config.yaml
 
-  # vivo container image is not available for ARM64 host machines. it does not work on macOS.
   vivo:
-    image: ghcr.io/calyptia/vivo
+    image: calyptia/vivo:3.2.0
     environment:
       - VIVO_TOKEN=changemeuig4phooch1theeheeneishahlarood5eiveiDeezie2eeng5IY4Doh4chee7eeB
     ports:
