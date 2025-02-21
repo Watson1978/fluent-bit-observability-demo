@@ -55,10 +55,9 @@ services:
 
   vivo:
     image: calyptia/vivo:3.2.0
-    environment:
-      - VIVO_TOKEN=changemeuig4phooch1theeheeneishahlarood5eiveiDeezie2eeng5IY4Doh4chee7eeB
     ports:
-      - "5489:5489"
+      - "2025:2025"
+      - "8000:3000"
       - "24224:24224"
 
 volumes:
